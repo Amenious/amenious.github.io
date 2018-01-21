@@ -1,0 +1,164 @@
+/* General CSS Rules */
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+/* Parallax Image */
+/* ============== */
+
+.bg-parallax {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Animation Rules */
+/* =============== */
+
+#home-cover {
+    animation-duration: 2s;
+    animation-delay: .1s;
+}
+
+#heading-name {
+    animation-delay: .5s;
+    animation-duration: 1s;
+}
+
+#heading-desc {
+    animation-delay: 1s;
+    animation-duration: 1s;
+}
+
+/* Home CSS Rules */
+/* ============== */
+
+#home {
+    height: 100%;
+}
+
+#home-cover {
+    background-size: cover;
+    background-image: url(../img/detroit-skyline-darkened.png);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#home-content-box {
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+#home-content-box-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#home-heading h3 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+#home-heading h4 {
+    color: #fff;
+    font-size: 30px;
+}
+
+/* About Me CSS Rules */
+/* ================== */
+
+#aboutMe-Title h2 {
+    font-size: 40px;
+}
+
+#aboutMe-content-box {
+    float: right;
+    height: 700px;
+}
+
+#aboutMe-content-box-outer {
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+#aboutMe-content-box-inner {
+    display: table-cell;
+    vertical-align: middle; 
+}
+
+
+/* Diagonal Parallax Thing */
+/* ======================= */
+
+#about-bg-diagonal {
+    width: 50%;
+    height: 750px;
+    float: left;
+    background-image: url(../img/BGPicture.jpg);
+    border-right: 200px solid white;
+    border-top: 750px solid transparent;
+    
+}
+
+/* Skills Section */
+/* ============== */
+
+#skills-content {
+    margin: 0 auto 0 auto;
+    padding-top: 10px;
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    display: table;
+    vertical-align: middle;
+}
+
+#skills-heading h2 {
+    color: white;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.skill-icon i {
+    color: white;
+}
+
+.skill-title p, h3 {
+    color: white;
+}
+
+/* Works Section */
+/* ============= */
+
+#works-image-left {
+    width: 50%;
+    height: 750px;
+    float: left;
+    background-image: url(../img/BGPicture.jpg);
+}
+
+#works-image-right {
+    width: 50%;
+    height: 750px;
+    float: right;
+    background-image: url(../img/BGPicture.jpg);
+}
+
+#works-desc-right p {
+    text-align: right;
+}
